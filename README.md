@@ -22,3 +22,6 @@
 ├── .env.stage, .env.prod # переменные окружения
 └── README.md # инструкция по запуску
 ```
+для Dockerfile
+sudo apt update
+sudo apt install python3-dev libpq-dev postgresql postgresql-contrib # для успешной установки pip install psycopg2 (уже есть в requirements)
